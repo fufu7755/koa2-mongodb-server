@@ -1,0 +1,29 @@
+{
+  "name": "koa-mongodb-server",
+  "version": "1.0.0",
+  "description": "利用node+koa+mongoose搭建的后台服务，提供restful接口api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa2",
+    "node",
+    "mongodb"
+  ],
+  "author": "FU",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "glob": "^7.2.0",
+    "koa": "^2.13.3",
+    "koa-body": "^2.5.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.8.1",
+    "mongoose": "^5.13.10",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {}
+}
